@@ -2,7 +2,7 @@
 
 set -e
 
-hugo -D
+hugo --minify --buildDrafts
 
 if [ -z "$INPUT_SECRET_ID" ]; then
   echo '::error::Required SecretId parameter'
