@@ -20,3 +20,6 @@ inputs:
   region:
     description: 'COS bucket region, detail: https://cloud.tencent.com/document/product/436/6224'
     required: true
+  endpoint:
+    description: 'https://cloud.tencent.com/document/product/436/10976'
+    required: false
