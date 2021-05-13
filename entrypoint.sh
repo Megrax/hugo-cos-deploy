@@ -25,7 +25,7 @@ if [ -z "$INPUT_REGION" ]; then
 fi
 
 if [ -z "$INPUT_ENDPOINT" ]; then
-  echo '::error::Required Region parameter'
+  echo '::error::Required endpoint parameter'
   exit 1
 fi
 
